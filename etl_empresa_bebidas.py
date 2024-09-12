@@ -442,7 +442,7 @@ import pymongo
 from pymongo import MongoClient
 
 # Substitua pela sua string de conexão
-connection_string = "mongodb+srv://dataanalistamariotti:HXlstrAtb6Ho2nnN@cluster0.ngg3t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+connection_string = ""
 client = MongoClient(connection_string,
                      serverSelectionTimeoutMS=60000,
                      socketTimeoutMS=60000,
